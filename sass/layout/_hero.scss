@@ -1,0 +1,37 @@
+.section-hero{
+    padding: 219px 0 335px 0;
+    background-image: url("/hero.jpg");
+    &-desc{
+        font-size: 16px;
+        font-weight: 500;
+        line-height: 19.5px;
+        text-align: center;
+        color:rgba(255, 255, 255, 1);
+        margin-bottom: 20px;
+    }
+    &-title{
+        max-width: 829px;
+        font-size: 48px;
+        font-weight: 800;
+        line-height: 64.36px;
+        text-align: center;
+        margin: 0 auto;
+        color:rgba(255, 255, 255, 1);
+    }
+    &-btn{
+        font-size: 16px;
+        font-weight: 500;
+        line-height: 19.5px;
+        text-align: center;
+        color:rgba(255, 255, 255, 1);
+        width: 200px;
+        height: 45px;
+        padding: 14px 36px;
+        border-radius: 30px;
+        background-color: rgba(73, 133, 255, 1);
+        box-shadow: 0px 0px 10px 0px rgba(111, 111, 111, 0.25);
+        display: block;
+        margin: 0 auto;
+        margin-top: 50px;
+    }
+}

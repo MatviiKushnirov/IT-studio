@@ -1,0 +1,45 @@
+.section-projects{
+    padding: 100px 0 130px 0;
+    background-color: rgba(246, 246, 248, 1);
+    &-title{
+        font-size: 36px;
+        font-weight: 700;
+        line-height: 52.66px;
+        text-align: center;
+        color: rgba(0, 0, 0, 1);
+        margin-bottom: 28px;
+    }
+    &-desc{
+        max-width: 730px;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 25.36px;
+        text-align: center;
+        margin: 0 auto;
+        margin-left: auto;
+        color: rgba(153, 153, 153, 1);
+        margin-bottom: 70px;
+    }
+}
+
+.projects-list{
+    display: flex;
+    gap: 30px;
+    margin-bottom: 50px;
+}
+
+.projects-btn{
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 19.5px;
+    text-align: center;
+    color:rgba(255, 255, 255, 1);
+    width: 200px;
+    height: 45px;
+    padding: 14px 36px;
+    border-radius: 30px;
+    background-color: rgba(73, 133, 255, 1);
+    box-shadow: 0px 0px 10px 0px rgba(111, 111, 111, 0.25);
+    display: block;
+    margin: 0 auto;
+}

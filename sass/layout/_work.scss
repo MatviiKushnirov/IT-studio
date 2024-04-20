@@ -1,0 +1,54 @@
+.section-work{
+    padding: 70px 0 85px 0;
+    background-image: url("/work.png");
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: contain;
+    &-title{
+        font-size: 36px;
+        font-weight: 700;
+        line-height: 52.66px;
+        text-align: center;
+        color:rgba(255, 255, 255, 1);
+        margin-bottom: 30px;
+    }
+    &-desc{
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 25.36px;
+        text-align: center;
+        color: rgba(255, 255, 255, 1);
+        margin-bottom: 70px;
+    }
+}
+
+.work-wrap{
+    width: 970px;
+    height: 430px;
+    background-image: url("/video-work.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin: 0 auto;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.work-btn{
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 25.36px;
+    text-align: left;
+    padding: 20px 29px 20px 40px;
+    color: rgba(255, 255, 255, 1);
+    width: 300px;
+    height: 100px;
+    background: transparent;
+    border: 1px solid rgba(255, 255, 255, 1);
+    border-radius: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
